@@ -1,6 +1,6 @@
 <script setup>
 import { ref, onMounted } from "vue";
-import backImg from "../assets/back.png";
+import backImg from "../assets/back.jpg";
 //表单  包含用户名，是否ow玩家，ow1段位 ow2段位 游戏模式（主要快速或者主要竞技） 游戏时间
 const form = ref({
   battletag: "",
@@ -50,8 +50,8 @@ onMounted(() => {
 });
 const getCoordinates = (event) => {
   const rect = myCanvas.value.getBoundingClientRect();
-  const x = event.clientX - rect.left +39;
-  const y = event.clientY - rect.top +39;
+  const x = event.clientX - rect.left +33.5;
+  const y = event.clientY - rect.top +33.5;
   console.log(`x: ${x}, y: ${y}`);
   // 画空心圆，线条颜色为herocolor
   if (herocolor.value == "#fff") {
@@ -106,7 +106,7 @@ const drawHero = (xtype) => {
     myCanvas.value.style.cursor = "auto";
     return
   }
-  let cur = `data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100"><circle cx="50" cy="50" r="30" stroke="${curcolor}" stroke-width="5" fill="none"/></svg>`
+  let cur = `data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100"><circle cx="50" cy="50" r="35" stroke="${curcolor}" stroke-width="5" fill="none"/></svg>`
   myCanvas.value.style.cursor = `url('${cur}') 17 17, auto`;
 
   herocolor.value = tmpcolor;
