@@ -1,7 +1,7 @@
-# Vue 3 + Vite
+# 守望先锋个人信息板在线生成工具
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+地址：knva.github.io
 
-## Recommended IDE Setup
+![image](https://github.com/knva/ow_player_profile/assets/9247530/ff0cff0f-fae9-4fd0-974b-a16a1fba781f)
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+图片作者： @lissy_lisna 十九双袜子
